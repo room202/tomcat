@@ -87,6 +87,13 @@ VS Codeに「Javaのファイルはどこにあって、できあがったファ
 
 ```json
 {
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Java",
+            "default": true
+        }
+    ],
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "WEB-INF/classes",
     "java.project.referencedLibraries": [
